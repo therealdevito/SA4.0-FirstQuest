@@ -3,7 +3,7 @@
 ## Learning Path
 
 ### 1. Linux
-VM cu o distributie de linux / WSL:
+VM cu o distributie de linux / [WSL](https://docs.microsoft.com/en-us/windows/wsl/about):
 - (recomandare personala) Debian based - Ubuntu
 - masina virtuala va fi de folos si mai tarziu dar e mai hungry decat WSL
 - nu recomand git bash, ii lipsesc multe bash utilities
