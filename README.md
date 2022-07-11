@@ -1,41 +1,43 @@
-# Flutter WhatsAppClone
+# First Quest - Linux Ninja, Git Warrior, Docker Shaman
 
-Building a WhatsApp Clone in Flutter.
+## Learning Path
 
-### Show some :heart: and star the repo to support the project
+### 1. Linux
+VM cu o distributie de linux / WSL:
+- (recomandare personala) Debian based - Ubuntu
+- masina virtuala va fi de folos si mai tarziu dar e mai hungry decat WSL
+- nu recomand git bash, ii lipsesc multe bash utilities
+- **puncte bonus**: deschis un shell in VM fara GUI
 
-### Screenshots
+[LinuxJourney](https://linuxjourney.com/):
+- toate sectiunile din Grasshopper + Journeyman/The Filesystem
+- restul sunt optionale, le faceti daca va permite timpul
+- exercitiile si quizzurile sunt foarte utile, nu sariti peste ele
+- `man` and `help` are your allies 
 
-<img src="ss1.png" height="300em" /> <img src="ss2.png" height="300em" />
+Foarte util:
+- [archWiki](https://wiki.archlinux.org/)
 
-[Watch the video tutorial on YouTube](https://youtu.be/2Tyrofn6zPg)
+### 2. Git
+[freeCodeCamp git crash course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- atentie la workflow
+- (recomandare personala) comenzile de git din terminal, dar si extensia de VSCode e utila uneori
 
-### Created & Maintained By
+Foarte util: 
+- [github get started guide](https://docs.github.com/en/get-started) - ! github flow !
+- [visual git guide](http://marklodato.github.io/visual-git-guide/index-en.html)
+- [interactive visual guide](http://onlywei.github.io/explain-git-with-d3)
 
-[Pawan Kumar](https://github.com/iampawan) ([@imthepk](https://www.twitter.com/imthepk)) ([Youtube](https://www.youtube.com/c/MTechViral))
-([Insta](https://www.instagram.com/codepur_ka_superhero))
+### De retinut
+- apreciem o documentare si o documentatie buna
+- **puncte bonus**: documentatia in [markdown](https://www.markdownguide.org/)
 
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](https://www.paypal.me/imthepk/)
+## Exercitiul 0:
 
-# License
+Creati un cont personal de GitHub (daca nu aveti deja) si dati fork la proiect. De acum veti lucra pe copia voastra a acestui repo.
+- va faceti setupul de git pe VM 
+- operatiile pe remote le veti face prin SSH 
+- Flutter-WhatsAppClone e playground-ul vostru - daca incercati lucruri noi, pe langa cele din cursuri, va puteti face un branch nou dedicat taskului de learning
 
-    Copyright 2018 Pawan Kumar
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+**DEADLINE 14.07 EOD**
+**Prezentare 15.07** 
