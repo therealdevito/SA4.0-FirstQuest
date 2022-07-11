@@ -39,5 +39,5 @@ Creati un cont personal de GitHub (daca nu aveti deja) si dati fork la proiect. 
 - operatiile pe remote le veti face prin SSH 
 - Flutter-WhatsAppClone e playground-ul vostru - daca incercati lucruri noi, pe langa cele din cursuri, va puteti face un branch nou dedicat taskului de learning
 
-**DEADLINE 14.07 EOD**
-**Prezentare 15.07** 
+**DEADLINE 14.07 EOD**   
+**Prezentare 15.07**   
