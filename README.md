@@ -40,4 +40,39 @@ Creati un cont personal de GitHub (daca nu aveti deja) si dati fork la proiect. 
 - Flutter-WhatsAppClone e playground-ul vostru - daca incercati lucruri noi, pe langa cele din cursuri, va puteti face un branch nou dedicat taskului de learning
 
 **DEADLINE 14.07 EOD**   
-**Prezentare 15.07**   
+**Prezentare 15.07**
+
+## Exercitiul 1:
+Primul exercitiu se concentreaza pe concepte si tool-uri din linux si abordeaza partea de automatizare. Programele pe care le veti folosi ca sa il rezolvati fac parte din toolbox-ul unui DevOps Engineer. 
+Exercitiile le parcurgeti gradual si le implementati in commituri (nu toata rezolvarea intr-un singur commit). Este foarte important sa respectati workflow-ul: commituri mici, mesage de commit detaliate, branchuri noi daca simtiti nevoia etc. Pentru exercitiul acesta se va lua in considerare si modul in care a fost folositi git.
+ 
+### Partea 1: Users, groups and permissions
+In VM, creati userul `alex` si userul `alina`, apoi grupurile `devops` si `engineer`:
+- setati parole pentru ambii useri
+- `devops` este account's primary group pentru userul `alex`
+- `engineer` este suplementary group pentru userii `alex` si `alina`
+- modificati ca ownerul acestui repo sa fie `alex`
+- blocati userul `alina`
+
+La final verificati daca aceste modificari s-au facut. Unde/cum puteti sa le vedeti? Faceti un cleanup complet si resetati permisiunile.
+
+**Puncte bonus**: creati un sudo user care are **setata specific** permisiunea de a executa comenzile de `systemctl start/stop/restart` pentru OpenSSH daemon.
+
+### Partea 2:  Working with files
+In directorul `/part2` exista 100 fisiere, fiecare fisier contine 500 de stringuri cu caractere random. Printre aceste stringuri se afla 10 adrese de tipul `<nume>@gmail.com` (``<nume>`` contine doar caractere alfanumerice). 
+- scrieti un shell script care sa gaseasca aceste adrese si sa le returneze intr-un fisier, impreuna cu numele fisierelor in care au fost gasite
+- modificati scriptul si adaugati un parametru pentru a putea cauta si dupa alte mailuri (eg. `@yahoo.com`)
+
+**Puncte bonus:**
+- ordonati in fisier adresele de mail gasite
+- inlocuiti adresele pe care le gasiti in `<nume>@yahoo.com` in fisiere
+
+### **BONUS**: 
+In directorul `/bonus1` exista doua fisiere:
+- `text1` contine 500 de stringuri cu caractere random
+- `text2` contine aceleasi stringuri ca cele din `text1` cu exceptia unui singur string modificat
+Scrieti un shell script care sa gaseasca acest string modificat si sa returneze atat varianta sa din `text1` cat si cea din `text2`.
+
+### De retinut:
+- ne-ar placea sa vedem si un README pentru exercitiu in care sa intelegem mai bine cum ati gandit si rezolvat taskurile
+- comentarii in cod 
