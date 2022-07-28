@@ -101,3 +101,5 @@ Pe pagina principala a NGINX-ului apare versiunea (de exemplu, in cazul in care 
 - aceste modificari (si alte configurari ulterioare) trebuie sa fie persistente
 
 La final se vor deschide cele doua containere (cel din partea 2 si cel din partea 3) si se vor accesa paginilie web de pe browserul local.
+
+**Bineinteles, comentarii in cod si README-ul updatat cu pasii urmati in rezolvarea exercitiului.**
