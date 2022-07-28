@@ -76,3 +76,28 @@ Scrieti un shell script care sa gaseasca acest string modificat si sa returneze 
 ### De retinut:
 - ne-ar placea sa vedem si un README pentru exercitiu in care sa intelegem mai bine cum ati gandit si rezolvat taskurile
 - comentarii in cod 
+
+## Exercitiul 2
+Acest exercitiu se concentreaza pe conceptul de containerizare. Arhitecturile monolith au evoluat odata cu timpul iar aparitia Docker a grabit procesul. Acum, mare parte din aplicatii sunt construite pe arhitectura de microservicii, iar acestea din urma "locuiesc" in containere.
+
+Veti crea un branch nou, `exercitiul2` pe care sa lucrati.
+
+### Partea 1: Web App
+Construiti imaginea unui container cu urmatorele specificatii:
+- imaginea are la baza un NGINX care va servi drept web server + toolurile aditionale
+- [acest repo](https://github.com/linuxacademy/content-widget-factory-inc "https://github.com/linuxacademy/content-widget-factory-inc") contine mai multe pagini web care vor fi served de NGINX 
+- se verifica daca paginile se deschid din interiorul containerului
+
+### Partea 2: Clean Image
+**Pe baza primei imagini**, construiti alta imagine cu urmatoarele specificatii:
+- toate toolurile aditionale care au fost instalate pentru a rezolva prima parte vor fi sterse pentru a reduce dimensiunea imaginii
+- paginile web trebuie sa fie in continuare accesibile
+- **nu se va folosi Dockerfile**
+
+### Partea 3: Configurari NGINX
+Pe pagina principala a NGINX-ului apare versiunea (de exemplu, in cazul in care ruta cautata nu exista):
+- din considerente de securitate, faceti ca aceasta versiune sa nu mai fie vizibila
+- **bonus**: setati un header custom in loc de versiunea de NGINX
+- aceste modificari (si alte configurari ulterioare) trebuie sa fie persistente
+
+La final se vor deschide cele doua containere (cel din partea 2 si cel din partea 3) si se vor accesa paginilie web de pe browserul local.
